@@ -1,2 +1,5 @@
 gradio
 watchdog
+flask
+flask-cors
+flask-sock

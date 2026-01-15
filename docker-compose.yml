@@ -6,6 +6,7 @@ services:
     container_name: tts-dashboard-instance
     ports:
       - "7860:7860"
+      - "3021:3021"
     volumes:
       - c:/.tts:/app/data
     restart: unless-stopped
